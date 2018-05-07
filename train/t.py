@@ -25,7 +25,7 @@ def recogn_face(img):
     return faces
 
 
-def face_rect():
+def face_rect(faces, img):
     '''Face rectangle'''
     for (x, y, w, h) in faces:
         cv2.rectangle(img, (x, y), (x + w, y + h), (0, 0, 255), 2)
@@ -57,4 +57,4 @@ def cut_img():
         img_name += 1
 
 if __name__ == '__main__':
-    cut_face()
+    cut_img()
