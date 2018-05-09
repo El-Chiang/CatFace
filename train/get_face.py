@@ -39,17 +39,17 @@ def face_rect(faces, img):
     cv2.waitKey(0)
 
 
-def get_bin_graph(img_name):
-    ''' convert to bin graph '''
-    img = Image.open(img_name)
-    img = img.convert('L')  # convert to grey-scale graph
-    imgs = skimage.io.imread(img_name)
-    ttt = np.mean(imgs)
+# def get_bin_graph(img_name):
+#     ''' convert to bin graph '''
+#     img = Image.open(img_name)
+#     img = img.convert('L')  # convert to grey-scale graph
+#     imgs = skimage.io.imread(img_name)
+#     ttt = np.mean(imgs)
 
-    WHITE, BLACK = 255, 0
-    img = img.point(lambda x: WHITE if x > ttt else BLACK)
-    img = img.convert('1')
-    img.save('new_' + img_name)
+#     WHITE, BLACK = 255, 0
+#     img = img.point(lambda x: WHITE if x > ttt else BLACK)
+#     img = img.convert('1')
+#     img.save('new_' + img_name)
 
 
 def cut_img():
