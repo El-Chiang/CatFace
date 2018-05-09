@@ -10,7 +10,7 @@
 
 👑 第一个发现新猫的人拥有给它命名的权利。
 
-❤ **猫永远是对的！** 
+❤ **CAT'S NEVER WRONG!** 
 
 ![Cat's Never Wrong!](https://github.com/El-Chiang/CatFace/blob/master/images/CatIsNeverWrong.jpg?raw=true)
 
@@ -22,8 +22,8 @@
   - 收集猫片。
 
 - 2018-05-05
-  - 利用openCV识别出猫脸。
-  - 裁剪猫脸图片，建立训练数据集。
+  - 利用`openCV`识别出猫脸。
+  - 裁剪猫脸图片，建立数据集。
 
 - 2018-05-10
 
@@ -35,15 +35,17 @@
 
   ![](https://github.com/El-Chiang/CatFace/blob/master/images/log01.png?raw=true)
 
-  
+  	> 这个不小心达到了100%欸嘿嘿。
 
 ## 待办
 
 - [x] 收集更多数据集，并按照7:3分为训练数据和测试数据
 - [x] 尝试用CNN进行不同猫之间的分类训练
-- [ ] UI设计
-- [ ] 使用React-Native进行app开发
+- [ ] UI设计，icon设计
+- [ ] 使用`React-Native`进行app开发
 - [ ] 提高模型精度
+- [ ] 设计API，写接口文档
+- [ ] 使用`Python`做后端开发
 
 ## 其他
 
